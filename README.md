@@ -54,5 +54,5 @@ docker rm news-aggregator
 And if you want to remove the Docker image:
 
 ```console
-docker rmi my-react-app
+docker rmi news-aggregator
 ```
