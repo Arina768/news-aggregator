@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import categoriesData from "../categories.json"; // Import the JSON file
+import categoriesData from "../categories.json";
 import Dropdown from "react-bootstrap/Dropdown";
 import Form from "react-bootstrap/Form";
 import useSources from "../api/useSources";
