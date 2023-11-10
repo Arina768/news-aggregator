@@ -40,7 +40,7 @@ Open your web browser and navigate to http://localhost:3000 to access the runnin
 To stop the running Docker container, use:
 
 ```console
-docker stop news-aggregator
+docker stop <container-id-or-name>
 ```
 
 ## Cleaning Up
@@ -48,11 +48,11 @@ docker stop news-aggregator
 If you want to remove the Docker container:
 
 ```console
-docker rm news-aggregator
+docker rm <container-id-or-name>
 ```
 
 And if you want to remove the Docker image:
 
 ```console
-docker rmi my-react-app
+docker rmi news-aggregator
 ```
